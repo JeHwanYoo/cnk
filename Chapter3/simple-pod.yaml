@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: myApp
-  namespace: dev
+  name: my-app
+  namespace: staging
   labels:
     environment: dev
   annotations:
-    customid1: 998123hjhsad 
+    customid1: 998123hjhsad
 spec:
   containers:
   - name: my-app-container
